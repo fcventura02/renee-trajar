@@ -1,4 +1,4 @@
-import { PropsWithChildren, ReactChild } from "react";
+import { ReactChild } from "react";
 import iconWhatsapp from "../../img/socialMidia/whatsapp.svg";
 import styles from "./floatingButton.module.scss";
 interface Props {

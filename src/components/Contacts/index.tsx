@@ -1,4 +1,4 @@
-import { ChangeEvent, useRef, useState } from "react";
+import { ChangeEvent, useState } from "react";
 import styles from "./contacts.module.scss";
 export function Contacts() {
   const [name, setName] = useState("");
