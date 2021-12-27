@@ -1,0 +1,48 @@
+:root {
+  --cormorant: "Cormorant", serif;
+  --lato: "Lato", sans-serif;
+  --playfairDisplay: "Playfair Display", serif;
+  --Poppins: "Poppins", sans-serif;
+
+  --color-blue-dark: rgba(1, 69, 97, 1);
+  --text-color-blue-dark: rgba(2, 75, 104, 0.68);
+  --color-blue-ligth: rgba(28, 134, 164, 1);
+  --color-green: rgba(1, 49, 69, 1);
+  --color-gray-50: rgba(114, 114, 114, 1);
+  --color-gray-200: rgba(130, 130, 130, 1);
+  --color-gray-300: rgba(148, 148, 148, 1);
+  --color-gray-400: rgba(196, 196, 196, 1);
+  --color-gray-500: rgba(224, 224, 224, 1);
+  --color-gray-700: rgba(79, 79, 79, 1);
+  --color-white: rgba(229, 229, 229, 1);
+  --color-black: rgba(9, 10, 12, 1);
+  --color-gold: rgba(190, 150, 103, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--lato);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+input, textarea{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1366px;
+
+  margin: auto;
+}
