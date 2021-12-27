@@ -9,13 +9,15 @@ import {
   Products,
   Testimony,
   Contacts,
+  FloatingButton,
 } from "./components";
+import styles from "./styles/styles.module.scss";
 
 function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className={styles.floating_container}>
         <Banner />
         <Profile />
         <LoyalClient />
@@ -24,6 +26,7 @@ function App() {
         <Products />
         <Testimony />
         <Contacts />
+        <FloatingButton type="whatsapp" href="#"/>
       </main>
       <Footer />
     </>
