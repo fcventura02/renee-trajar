@@ -8,6 +8,7 @@ import { Products } from "./Products";
 import { Profile } from "./Profile";
 import { Promotion } from "./Promotion";
 import { Testimony } from "./Testimony";
+import { FloatingButton } from "./FloatingButton";
 export {
   Banner,
   Contacts,
@@ -19,4 +20,5 @@ export {
   Profile,
   Promotion,
   Testimony,
+  FloatingButton,
 };
