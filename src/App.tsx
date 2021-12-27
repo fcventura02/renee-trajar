@@ -7,6 +7,7 @@ import { Objective } from "./components/Objective";
 import { Promotion } from "./components/Promotion";
 import { Products } from "./components/Products";
 import { Testimony } from "./components/Testimony";
+import { Contacts } from "./components/Contacts";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Promotion />
         <Products />
         <Testimony />
+        <Contacts />
       </main>
       <Footer />
     </>
