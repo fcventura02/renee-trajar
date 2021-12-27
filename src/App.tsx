@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { LoyalClient } from "./components/LoyalClient";
 import { Objective } from "./components/Objective";
+import { Promotion } from "./components/Promotion";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Profile />
         <LoyalClient />
         <Objective />
+        <Promotion />
       </main>
       <Footer />
     </>

@@ -1,0 +1,101 @@
+.promotion{
+	background: url("../../img/manequim.png") no-repeat center;
+	background-size: cover;
+	position: relative;
+	&::after{
+		content: "";
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background: #013145;
+		opacity: 0.89;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	&::before{
+		content: "";
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(270deg, rgba(1, 49, 69, 0) 0%, rgba(0, 36, 50, 0.85) 54.17%);
+		opacity: 0.89;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.container{
+		max-width: 1032px;
+		padding: 26px 0;
+		display: flex;
+		position: relative;
+		z-index: 2;
+		@media (max-width: 850px) {
+			img{
+				display: none;
+			}
+		}
+		div{
+			display: flex;
+			flex-direction: column;
+			h2{
+				font-family: var(--cormorant);
+				color: var(--color-gold);
+				font-weight: normal;
+				font-size: 53px;
+				line-height: 64px;
+				text-transform: uppercase;
+			}
+			p{
+				margin-top: 37px;
+				font-family: var(--cormorant);
+				color: var(--color-gold);
+				font-style: italic;
+				font-weight: normal;
+				font-size: 30px;
+				line-height: 36px;
+			}
+			ul{
+				margin: 20px 0;
+				list-style: none;
+				li{
+					color: var(--color-gray-400);
+					font-weight: 300;
+					font-size: 22px;
+					line-height: 26px;
+					margin: 10px 0;
+					position: relative;
+					padding-left: 18px;
+					&::before{
+						content: "\2014";
+						color: var(--color-gold);
+						position: absolute;
+						left: 0;
+						top: 13px;
+						transform: translate(-50%, -50%);
+
+					}
+					span{
+						color: var(--color-white);
+						font-weight: 600;
+					}
+				}
+			}
+			a{
+				background: var(--color-gold);
+				color: var(--color-gray-500);
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 22px;
+				padding: 17px 40px;
+				border-radius: 2px;
+				margin: auto auto 0 0;
+				filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+				transition: background .3s ease-in;
+				&:hover{
+					background: var(--color-gray-50);
+				}
+			}
+		}
+	}
+}
