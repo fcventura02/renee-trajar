@@ -1,10 +1,10 @@
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, ReactChild } from "react";
 import iconWhatsapp from "../../img/socialMidia/whatsapp.svg";
 import styles from "./floatingButton.module.scss";
 interface Props {
   type: string;
   href: string;
-  children?: PropsWithChildren<ChildNode>;
+  children?: ReactChild;
 }
 export function FloatingButton({ type, href, children }: Props) {
   return (

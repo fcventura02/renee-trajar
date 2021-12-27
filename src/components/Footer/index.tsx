@@ -1,5 +1,7 @@
 import styles from "./footer.module.scss";
 import logo from "../../img/logo2.svg";
+import arrowUp from "../../img/arrowUp.svg";
+import { FloatingButton } from "..";
 export function Footer() {
   return (
     <footer className={styles.footer}>
@@ -16,6 +18,9 @@ export function Footer() {
           </span>
         </div>
       </div>
+      <FloatingButton href="#" type="move_up">
+        <img src={arrowUp} alt="Subir" />
+      </FloatingButton>
     </footer>
   );
 }
