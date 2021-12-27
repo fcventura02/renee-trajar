@@ -6,6 +6,7 @@ import { LoyalClient } from "./components/LoyalClient";
 import { Objective } from "./components/Objective";
 import { Promotion } from "./components/Promotion";
 import { Products } from "./components/Products";
+import { Testimony } from "./components/Testimony";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Objective />
         <Promotion />
         <Products />
+        <Testimony />
       </main>
       <Footer />
     </>
